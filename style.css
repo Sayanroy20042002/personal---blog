@@ -1,0 +1,2033 @@
+
+html {
+    box-sizing: border-box
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit
+}
+
+
+html {
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%
+}
+
+body {
+    margin: 0
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+main,
+menu,
+nav,
+section {
+    display: block
+}
+
+summary {
+    display: list-item
+}
+
+audio,
+canvas,
+progress,
+video {
+    display: inline-block
+}
+
+progress {
+    vertical-align: baseline
+}
+
+audio:not([controls]) {
+    display: none;
+    height: 0
+}
+
+[hidden],
+template {
+    display: none
+}
+
+a {
+    background-color: transparent
+}
+
+a:active,
+a:hover {
+    outline-width: 0
+}
+
+abbr[title] {
+    border-bottom: none;
+    text-decoration: underline;
+    text-decoration: underline dotted
+}
+
+b,
+strong {
+    font-weight: bolder
+}
+
+dfn {
+    font-style: italic
+}
+
+mark {
+    background: #ff0;
+    color: #000
+}
+
+small {
+    font-size: 80%
+}
+
+sub,
+sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline
+}
+
+sub {
+    bottom: -0.25em
+}
+
+sup {
+    top: -0.5em
+}
+
+figure {
+    margin: 1em 40px
+}
+
+img {
+    border-style: none
+}
+
+code,
+kbd,
+pre,
+samp {
+    font-family: monospace, monospace;
+    font-size: 1em
+}
+
+hr {
+    box-sizing: content-box;
+    height: 0;
+    overflow: visible
+}
+
+button,
+input,
+select,
+textarea,
+optgroup {
+    font: inherit;
+    margin: 0
+}
+
+optgroup {
+    font-weight: bold
+}
+
+button,
+input {
+    overflow: visible
+}
+
+button,
+select {
+    text-transform: none
+}
+
+button,
+[type=button],
+[type=reset],
+[type=submit] {
+    -webkit-appearance: button
+}
+
+button::-moz-focus-inner,
+[type=button]::-moz-focus-inner,
+[type=reset]::-moz-focus-inner,
+[type=submit]::-moz-focus-inner {
+    border-style: none;
+    padding: 0
+}
+
+button:-moz-focusring,
+[type=button]:-moz-focusring,
+[type=reset]:-moz-focusring,
+[type=submit]:-moz-focusring {
+    outline: 1px dotted ButtonText
+}
+
+fieldset {
+    border: 1px solid #c0c0c0;
+    margin: 0 2px;
+    padding: .35em .625em .75em
+}
+
+legend {
+    color: inherit;
+    display: table;
+    max-width: 100%;
+    padding: 0;
+    white-space: normal
+}
+
+textarea {
+    overflow: auto
+}
+
+[type=checkbox],
+[type=radio] {
+    padding: 0
+}
+
+[type=number]::-webkit-inner-spin-button,
+[type=number]::-webkit-outer-spin-button {
+    height: auto
+}
+
+[type=search] {
+    -webkit-appearance: textfield;
+    outline-offset: -2px
+}
+
+[type=search]::-webkit-search-decoration {
+    -webkit-appearance: none
+}
+
+::-webkit-file-upload-button {
+    -webkit-appearance: button;
+    font: inherit
+}
+
+
+html,
+body {
+    font-family: Verdana, sans-serif;
+    font-size: 15px;
+    line-height: 1.5
+}
+
+html {
+    overflow-x: hidden
+}
+
+h1 {
+    font-size: 36px
+}
+
+h2 {
+    font-size: 30px
+}
+
+h3 {
+    font-size: 24px
+}
+
+h4 {
+    font-size: 20px
+}
+
+h5 {
+    font-size: 18px
+}
+
+h6 {
+    font-size: 16px
+}
+
+.sayan-serif {
+    font-family: serif
+}
+
+.sayan-sans-serif {
+    font-family: sans-serif
+}
+
+.sayan-cursive {
+    font-family: cursive
+}
+
+.sayan-monospace {
+    font-family: monospace
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-weight: 400;
+    margin: 10px 0
+}
+
+.sayan-wide {
+    letter-spacing: 4px
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid #eee;
+    margin: 20px 0
+}
+
+.sayan-image {
+    max-width: 100%;
+    height: auto
+}
+
+img {
+    vertical-align: middle
+}
+
+a {
+    color: inherit
+}
+
+.sayan-table,
+.sayan-table-all {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    display: table
+}
+
+.sayan-table-all {
+    border: 1px solid #ccc
+}
+
+.sayan-bordered tr,
+.sayan-table-all tr {
+    border-bottom: 1px solid #ddd
+}
+
+.sayan-striped tbody tr:nth-child(even) {
+    background-color: #f1f1f1
+}
+
+.sayan-table-all tr:nth-child(odd) {
+    background-color: #fff
+}
+
+.sayan-table-all tr:nth-child(even) {
+    background-color: #f1f1f1
+}
+
+.sayan-hoverable tbody tr:hover,
+.sayan-ul.sayan-hoverable li:hover {
+    background-color: #ccc
+}
+
+.sayan-centered tr th,
+.sayan-centered tr td {
+    text-align: center
+}
+
+.sayan-table td,
+.sayan-table th,
+.sayan-table-all td,
+.sayan-table-all th {
+    padding: 8px 8px;
+    display: table-cell;
+    text-align: left;
+    vertical-align: top
+}
+
+.sayan-table th:first-child,
+.sayan-table td:first-child,
+.sayan-table-all th:first-child,
+.sayan-table-all td:first-child {
+    padding-left: 16px
+}
+
+.sayan-btn,
+.sayan-button {
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    background-color: inherit;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap
+}
+
+.sayan-btn:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+}
+
+.sayan-btn,
+.sayan-button {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none
+}
+
+.sayan-disabled,
+.sayan-btn:disabled,
+.sayan-button:disabled {
+    cursor: not-allowed;
+    opacity: 0.3
+}
+
+.sayan-disabled *,
+:disabled * {
+    pointer-events: none
+}
+
+.sayan-btn.sayan-disabled:hover,
+.sayan-btn:disabled:hover {
+    box-shadow: none
+}
+
+.sayan-badge,
+.sayan-tag {
+    background-color: #000;
+    color: #fff;
+    display: inline-block;
+    padding-left: 8px;
+    padding-right: 8px;
+    text-align: center
+}
+
+.sayan-badge {
+    border-radius: 50%
+}
+
+.sayan-ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0
+}
+
+.sayan-ul li {
+    padding: 8px 16px;
+    border-bottom: 1px solid #ddd
+}
+
+.sayan-ul li:last-child {
+    border-bottom: none
+}
+
+.sayan-tooltip,
+.sayan-display-container {
+    position: relative
+}
+
+.sayan-tooltip .sayan-text {
+    display: none
+}
+
+.sayan-tooltip:hover .sayan-text {
+    display: inline-block
+}
+
+.sayan-ripple:active {
+    opacity: 0.5
+}
+
+.sayan-ripple {
+    transition: opacity 0s
+}
+
+.sayan-input {
+    padding: 8px;
+    display: block;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    width: 100%
+}
+
+.sayan-select {
+    padding: 9px 0;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #ccc
+}
+
+.sayan-dropdown-click,
+.sayan-dropdown-hover {
+    position: relative;
+    display: inline-block;
+    cursor: pointer
+}
+
+.sayan-dropdown-hover:hover .sayan-dropdown-content {
+    display: block
+}
+
+.sayan-dropdown-hover:first-child,
+.sayan-dropdown-click:hover {
+    background-color: #ccc;
+    color: #000
+}
+
+.sayan-dropdown-hover:hover>.sayan-button:first-child,
+.sayan-dropdown-click:hover>.sayan-button:first-child {
+    background-color: #ccc;
+    color: #000
+}
+
+.sayan-dropdown-content {
+    cursor: auto;
+    color: #000;
+    background-color: #fff;
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    margin: 0;
+    padding: 0;
+    z-index: 1
+}
+
+.sayan-check,
+.sayan-radio {
+    width: 24px;
+    height: 24px;
+    position: relative;
+    top: 6px
+}
+
+.sayan-sidebar {
+    height: 100%;
+    width: 200px;
+    background-color: #fff;
+    position: fixed !important;
+    z-index: 1;
+    overflow: auto
+}
+
+.sayan-bar-block .sayan-dropdown-hover,
+.sayan-bar-block .sayan-dropdown-click {
+    width: 100%
+}
+
+.sayan-bar-block .sayan-dropdown-hover .sayan-dropdown-content,
+.sayan-bar-block .sayan-dropdown-click .sayan-dropdown-content {
+    min-width: 100%
+}
+
+.sayan-bar-block .sayan-dropdown-hover .sayan-button,
+.sayan-bar-block .sayan-dropdown-click .sayan-button {
+    width: 100%;
+    text-align: left;
+    padding: 8px 16px
+}
+
+.sayan-main,
+#main {
+    transition: margin-left .4s
+}
+
+.sayan-modal {
+    z-index: 3;
+    display: none;
+    padding-top: 100px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4)
+}
+
+.sayan-modal-content {
+    margin: auto;
+    background-color: #fff;
+    position: relative;
+    padding: 0;
+    outline: 0;
+    width: 600px
+}
+
+.sayan-bar {
+    width: 100%;
+    overflow: hidden
+}
+
+.sayan-center .sayan-bar {
+    display: inline-block;
+    width: auto
+}
+
+.sayan-bar .sayan-bar-item {
+    padding: 8px 16px;
+    float: left;
+    width: auto;
+    border: none;
+    display: block;
+    outline: 0
+}
+
+.sayan-bar .sayan-dropdown-hover,
+.sayan-bar .sayan-dropdown-click {
+    position: static;
+    float: left
+}
+
+.sayan-bar .sayan-button {
+    white-space: normal
+}
+
+.sayan-bar-block .sayan-bar-item {
+    width: 100%;
+    display: block;
+    padding: 8px 16px;
+    text-align: left;
+    border: none;
+    white-space: normal;
+    float: none;
+    outline: 0
+}
+
+.sayan-bar-block.sayan-center .sayan-bar-item {
+    text-align: center
+}
+
+.sayan-block {
+    display: block;
+    width: 100%
+}
+
+.sayan-responsive {
+    display: block;
+    overflow-x: auto
+}
+
+.sayan-container:after,
+.sayan-container:before,
+.sayan-panel:after,
+.sayan-panel:before,
+.sayan-row:after,
+.sayan-row:before,
+.sayan-row-padding:after,
+.sayan-row-padding:before,
+.sayan-cell-row:before,
+.sayan-cell-row:after,
+.sayan-clear:after,
+.sayan-clear:before,
+.sayan-bar:before,
+.sayan-bar:after {
+    content: "";
+    display: table;
+    clear: both
+}
+
+.sayan-col,
+.sayan-half,
+.sayan-third,
+.sayan-twothird,
+.sayan-threequarter,
+.sayan-quarter {
+    float: left;
+    width: 100%
+}
+
+.sayan-col.s1 {
+    width: 8.33333%
+}
+
+.sayan-col.s2 {
+    width: 16.66666%
+}
+
+.sayan-col.s3 {
+    width: 24.99999%
+}
+
+.sayan-col.s4 {
+    width: 33.33333%
+}
+
+.sayan-col.s5 {
+    width: 41.66666%
+}
+
+.sayan-col.s6 {
+    width: 49.99999%
+}
+
+.sayan-col.s7 {
+    width: 58.33333%
+}
+
+.sayan-col.s8 {
+    width: 66.66666%
+}
+
+.sayan-col.s9 {
+    width: 74.99999%
+}
+
+.sayan-col.s10 {
+    width: 83.33333%
+}
+
+.sayan-col.s11 {
+    width: 91.66666%
+}
+
+.sayan-col.s12 {
+    width: 99.99999%
+}
+
+@media (min-width:601px) {
+    .sayan-col.m1 {
+        width: 8.33333%
+    }
+
+    .sayan-col.m2 {
+        width: 16.66666%
+    }
+
+    .sayan-col.m3,
+    .sayan-quarter {
+        width: 24.99999%
+    }
+
+    .sayan-col.m4,
+    .sayan-third {
+        width: 33.33333%
+    }
+
+    .sayan-col.m5 {
+        width: 41.66666%
+    }
+
+    .sayan-col.m6,
+    .sayan-half {
+        width: 49.99999%
+    }
+
+    .sayan-col.m7 {
+        width: 58.33333%
+    }
+
+    .sayan-col.m8,
+    .sayan-twothird {
+        width: 66.66666%
+    }
+
+    .sayan-col.m9,
+    .sayan-threequarter {
+        width: 74.99999%
+    }
+
+    .sayan-col.m10 {
+        width: 83.33333%
+    }
+
+    .sayan-col.m11 {
+        width: 91.66666%
+    }
+
+    .sayan-col.m12 {
+        width: 99.99999%
+    }
+}
+
+@media (min-width:993px) {
+    .sayan-col.l1 {
+        width: 8.33333%
+    }
+
+    .sayan-col.l2 {
+        width: 16.66666%
+    }
+
+    .sayan-col.l3 {
+        width: 24.99999%
+    }
+
+    .sayan-col.l4 {
+        width: 33.33333%
+    }
+
+    .sayan-col.l5 {
+        width: 41.66666%
+    }
+
+    .sayan-col.l6 {
+        width: 49.99999%
+    }
+
+    .sayan-col.l7 {
+        width: 58.33333%
+    }
+
+    .sayan-col.l8 {
+        width: 66.66666%
+    }
+
+    .sayan-col.l9 {
+        width: 74.99999%
+    }
+
+    .sayan-col.l10 {
+        width: 83.33333%
+    }
+
+    .sayan-col.l11 {
+        width: 91.66666%
+    }
+
+    .sayan-col.l12 {
+        width: 99.99999%
+    }
+}
+
+.sayan-rest {
+    overflow: hidden
+}
+
+.sayan-stretch {
+    margin-left: -16px;
+    margin-right: -16px
+}
+
+.sayan-content,
+.sayan-auto {
+    margin-left: auto;
+    margin-right: auto
+}
+
+.sayan-content {
+    max-width: 980px
+}
+
+.sayan-auto {
+    max-width: 1140px
+}
+
+.sayan-cell-row {
+    display: table;
+    width: 100%
+}
+
+.sayan-cell {
+    display: table-cell
+}
+
+.sayan-cell-top {
+    vertical-align: top
+}
+
+.sayan-cell-middle {
+    vertical-align: middle
+}
+
+.sayan-cell-bottom {
+    vertical-align: bottom
+}
+
+.sayan-hide {
+    display: none !important
+}
+
+.sayan-show-block,
+.sayan-show {
+    display: block !important
+}
+
+.sayan-show-inline-block {
+    display: inline-block !important
+}
+
+@media (max-width:1205px) {
+    .sayan-auto {
+        max-width: 95%
+    }
+}
+
+@media (max-width:600px) {
+    .sayan-modal-content {
+        margin: 0 10px;
+        width: auto !important
+    }
+
+    .sayan-modal {
+        padding-top: 30px
+    }
+
+    .sayan-dropdown-hover.sayan-mobile .sayan-dropdown-content,
+    .sayan-dropdown-click.sayan-mobile .sayan-dropdown-content {
+        position: relative
+    }
+
+    .sayan-hide-small {
+        display: none !important
+    }
+
+    .sayan-mobile {
+        display: block;
+        width: 100% !important
+    }
+
+    .sayan-bar-item.sayan-mobile,
+    .sayan-dropdown-hover.sayan-mobile,
+    .sayan-dropdown-click.sayan-mobile {
+        text-align: center
+    }
+
+    .sayan-dropdown-hover.sayan-mobile,
+    .sayan-dropdown-hover.sayan-mobile .sayan-btn,
+    .sayan-dropdown-hover.sayan-mobile .sayan-button,
+    .sayan-dropdown-click.sayan-mobile,
+    .sayan-dropdown-click.sayan-mobile .sayan-btn,
+    .sayan-dropdown-click.sayan-mobile .sayan-button {
+        width: 100%
+    }
+}
+
+@media (max-width:768px) {
+    .sayan-modal-content {
+        width: 500px
+    }
+
+    .sayan-modal {
+        padding-top: 50px
+    }
+}
+
+@media (min-width:993px) {
+    .sayan-modal-content {
+        width: 900px
+    }
+
+    .sayan-hide-large {
+        display: none !important
+    }
+
+    .sayan-sidebar.sayan-collapse {
+        display: block !important
+    }
+}
+
+@media (max-width:992px) and (min-width:601px) {
+    .sayan-hide-medium {
+        display: none !important
+    }
+}
+
+@media (max-width:992px) {
+    .sayan-sidebar.sayan-collapse {
+        display: none
+    }
+
+    .sayan-main {
+        margin-left: 0 !important;
+        margin-right: 0 !important
+    }
+
+    .sayan-auto {
+        max-width: 100%
+    }
+}
+
+.sayan-top,
+.sayan-bottom {
+    position: fixed;
+    width: 100%;
+    z-index: 1
+}
+
+.sayan-top {
+    top: 0
+}
+
+.sayan-bottom {
+    bottom: 0
+}
+
+.sayan-overlay {
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 2
+}
+
+.sayan-display-topleft {
+    position: absolute;
+    left: 0;
+    top: 0
+}
+
+.sayan-display-topright {
+    position: absolute;
+    right: 0;
+    top: 0
+}
+
+.sayan-display-bottomleft {
+    position: absolute;
+    left: 0;
+    bottom: 0
+}
+
+.sayan-display-bottomright {
+    position: absolute;
+    right: 0;
+    bottom: 0
+}
+
+.sayan-display-middle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%)
+}
+
+.sayan-display-left {
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    transform: translate(0%, -50%);
+    -ms-transform: translate(-0%, -50%)
+}
+
+.sayan-display-right {
+    position: absolute;
+    top: 50%;
+    right: 0%;
+    transform: translate(0%, -50%);
+    -ms-transform: translate(0%, -50%)
+}
+
+.sayan-display-topmiddle {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translate(-50%, 0%);
+    -ms-transform: translate(-50%, 0%)
+}
+
+.sayan-display-bottommiddle {
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%, 0%);
+    -ms-transform: translate(-50%, 0%)
+}
+
+.sayan-display-container:hover .sayan-display-hover {
+    display: block
+}
+
+.sayan-display-container:hover span.sayan-display-hover {
+    display: inline-block
+}
+
+.sayan-display-hover {
+    display: none
+}
+
+.sayan-display-position {
+    position: absolute
+}
+
+.sayan-circle {
+    border-radius: 50%
+}
+
+.sayan-round-small {
+    border-radius: 2px
+}
+
+.sayan-round,
+.sayan-round-medium {
+    border-radius: 4px
+}
+
+.sayan-round-large {
+    border-radius: 8px
+}
+
+.sayan-round-xlarge {
+    border-radius: 16px
+}
+
+.sayan-round-xxlarge {
+    border-radius: 32px
+}
+
+.sayan-row-padding,
+.sayan-row-padding>.sayan-half,
+.sayan-row-padding>.sayan-third,
+.sayan-row-padding>.sayan-twothird,
+.sayan-row-padding>.sayan-threequarter,
+.sayan-row-padding>.sayan-quarter,
+.sayan-row-padding>.sayan-col {
+    padding: 0 8px
+}
+
+.sayan-container,
+.sayan-panel {
+    padding: 0.01em 16px
+}
+
+.sayan-panel {
+    margin-top: 16px;
+    margin-bottom: 16px
+}
+
+.sayan-code,
+.sayan-codespan {
+    font-family: Consolas, "courier new";
+    font-size: 16px
+}
+
+.sayan-code {
+    width: auto;
+    background-color: #fff;
+    padding: 8px 12px;
+    border-left: 4px solid #4CAF50;
+    word-wrap: break-word
+}
+
+.sayan-codespan {
+    color: crimson;
+    background-color: #f1f1f1;
+    padding-left: 4px;
+    padding-right: 4px;
+    font-size: 110%
+}
+
+.sayan-card,
+.sayan-card-2 {
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12)
+}
+
+.sayan-card-4,
+.sayan-hover-shadow:hover {
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19)
+}
+
+.sayan-spin {
+    animation: sayan-spin 2s infinite linear
+}
+
+@keyframes sayan-spin {
+    0% {
+        transform: rotate(0deg)
+    }
+
+    100% {
+        transform: rotate(359deg)
+    }
+}
+
+.sayan-animate-fading {
+    animation: fading 10s infinite
+}
+
+@keyframes fading {
+    0% {
+        opacity: 0
+    }
+
+    50% {
+        opacity: 1
+    }
+
+    100% {
+        opacity: 0
+    }
+}
+
+.sayan-animate-opacity {
+    animation: opac 0.8s
+}
+
+@keyframes opac {
+    from {
+        opacity: 0
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+.sayan-animate-top {
+    position: relative;
+    animation: animatetop 0.4s
+}
+
+@keyframes animatetop {
+    from {
+        top: -300px;
+        opacity: 0
+    }
+
+    to {
+        top: 0;
+        opacity: 1
+    }
+}
+
+.sayan-animate-left {
+    position: relative;
+    animation: animateleft 0.4s
+}
+
+@keyframes animateleft {
+    from {
+        left: -300px;
+        opacity: 0
+    }
+
+    to {
+        left: 0;
+        opacity: 1
+    }
+}
+
+.sayan-animate-right {
+    position: relative;
+    animation: animateright 0.4s
+}
+
+@keyframes animateright {
+    from {
+        right: -300px;
+        opacity: 0
+    }
+
+    to {
+        right: 0;
+        opacity: 1
+    }
+}
+
+.sayan-animate-bottom {
+    position: relative;
+    animation: animatebottom 0.4s
+}
+
+@keyframes animatebottom {
+    from {
+        bottom: -300px;
+        opacity: 0
+    }
+
+    to {
+        bottom: 0;
+        opacity: 1
+    }
+}
+
+.sayan-animate-zoom {
+    animation: animatezoom 0.6s
+}
+
+@keyframes animatezoom {
+    from {
+        transform: scale(0)
+    }
+
+    to {
+        transform: scale(1)
+    }
+}
+
+.sayan-animate-input {
+    transition: width 0.4s ease-in-out
+}
+
+.sayan-animate-input:focus {
+    width: 100% !important
+}
+
+.sayan-opacity,
+.sayan-hover-opacity:hover {
+    opacity: 0.60
+}
+
+.sayan-opacity-off,
+.sayan-hover-opacity-off:hover {
+    opacity: 1
+}
+
+.sayan-opacity-max {
+    opacity: 0.25
+}
+
+.sayan-opacity-min {
+    opacity: 0.75
+}
+
+.sayan-greyscale-max,
+.sayan-grayscale-max,
+.sayan-hover-greyscale:hover,
+.sayan-hover-grayscale:hover {
+    filter: grayscale(100%)
+}
+
+.sayan-greyscale,
+.sayan-grayscale {
+    filter: grayscale(75%)
+}
+
+.sayan-greyscale-min,
+.sayan-grayscale-min {
+    filter: grayscale(50%)
+}
+
+.sayan-sepia {
+    filter: sepia(75%)
+}
+
+.sayan-sepia-max,
+.sayan-hover-sepia:hover {
+    filter: sepia(100%)
+}
+
+.sayan-sepia-min {
+    filter: sepia(50%)
+}
+
+.sayan-tiny {
+    font-size: 10px !important
+}
+
+.sayan-small {
+    font-size: 12px !important
+}
+
+.sayan-medium {
+    font-size: 15px !important
+}
+
+.sayan-large {
+    font-size: 18px !important
+}
+
+.sayan-xlarge {
+    font-size: 24px !important
+}
+
+.sayan-xxlarge {
+    font-size: 36px !important
+}
+
+.sayan-xxxlarge {
+    font-size: 48px !important
+}
+
+.sayan-jumbo {
+    font-size: 64px !important
+}
+
+.sayan-left-align {
+    text-align: left !important
+}
+
+.sayan-right-align {
+    text-align: right !important
+}
+
+.sayan-justify {
+    text-align: justify !important
+}
+
+.sayan-center {
+    text-align: center !important
+}
+
+.sayan-border-0 {
+    border: 0 !important
+}
+
+.sayan-border {
+    border: 1px solid #ccc !important
+}
+
+.sayan-border-top {
+    border-top: 1px solid #ccc !important
+}
+
+.sayan-border-bottom {
+    border-bottom: 1px solid #ccc !important
+}
+
+.sayan-border-left {
+    border-left: 1px solid #ccc !important
+}
+
+.sayan-border-right {
+    border-right: 1px solid #ccc !important
+}
+
+.sayan-topbar {
+    border-top: 6px solid #ccc !important
+}
+
+.sayan-bottombar {
+    border-bottom: 6px solid #ccc !important
+}
+
+.sayan-leftbar {
+    border-left: 6px solid #ccc !important
+}
+
+.sayan-rightbar {
+    border-right: 6px solid #ccc !important
+}
+
+.sayan-section,
+.sayan-code {
+    margin-top: 16px !important;
+    margin-bottom: 16px !important
+}
+
+.sayan-margin {
+    margin: 16px !important
+}
+
+.sayan-margin-top {
+    margin-top: 16px !important
+}
+
+.sayan-margin-bottom {
+    margin-bottom: 16px !important
+}
+
+.sayan-margin-left {
+    margin-left: 16px !important
+}
+
+.sayan-margin-right {
+    margin-right: 16px !important
+}
+
+.sayan-padding-small {
+    padding: 4px 8px !important
+}
+
+.sayan-padding {
+    padding: 8px 16px !important
+}
+
+.sayan-padding-large {
+    padding: 12px 24px !important
+}
+
+.sayan-padding-16 {
+    padding-top: 16px !important;
+    padding-bottom: 16px !important
+}
+
+.sayan-padding-24 {
+    padding-top: 24px !important;
+    padding-bottom: 24px !important
+}
+
+.sayan-padding-32 {
+    padding-top: 32px !important;
+    padding-bottom: 32px !important
+}
+
+.sayan-padding-48 {
+    padding-top: 48px !important;
+    padding-bottom: 48px !important
+}
+
+.sayan-padding-64 {
+    padding-top: 64px !important;
+    padding-bottom: 64px !important
+}
+
+.sayan-padding-top-64 {
+    padding-top: 64px !important
+}
+
+.sayan-padding-top-48 {
+    padding-top: 48px !important
+}
+
+.sayan-padding-top-32 {
+    padding-top: 32px !important
+}
+
+.sayan-padding-top-24 {
+    padding-top: 24px !important
+}
+
+.sayan-left {
+    float: left !important
+}
+
+.sayan-right {
+    float: right !important
+}
+
+.sayan-button:hover {
+    color: #000 !important;
+    background-color: #ccc !important
+}
+
+.sayan-transparent,
+.sayan-hover-none:hover {
+    background-color: transparent !important
+}
+
+.sayan-hover-none:hover {
+    box-shadow: none !important
+}
+
+/* Colors */
+.sayan-amber,
+.sayan-hover-amber:hover {
+    color: #000 !important;
+    background-color: #ffc107 !important
+}
+
+.sayan-aqua,
+.sayan-hover-aqua:hover {
+    color: #000 !important;
+    background-color: #00ffff !important
+}
+
+.sayan-blue,
+.sayan-hover-blue:hover {
+    color: #fff !important;
+    background-color: #2196F3 !important
+}
+
+.sayan-light-blue,
+.sayan-hover-light-blue:hover {
+    color: #000 !important;
+    background-color: #87CEEB !important
+}
+
+.sayan-brown,
+.sayan-hover-brown:hover {
+    color: #fff !important;
+    background-color: #795548 !important
+}
+
+.sayan-cyan,
+.sayan-hover-cyan:hover {
+    color: #000 !important;
+    background-color: #00bcd4 !important
+}
+
+.sayan-blue-grey,
+.sayan-hover-blue-grey:hover,
+.sayan-blue-gray,
+.sayan-hover-blue-gray:hover {
+    color: #fff !important;
+    background-color: #607d8b !important
+}
+
+.sayan-green,
+.sayan-hover-green:hover {
+    color: #fff !important;
+    background-color: #4CAF50 !important
+}
+
+.sayan-light-green,
+.sayan-hover-light-green:hover {
+    color: #000 !important;
+    background-color: #8bc34a !important
+}
+
+.sayan-indigo,
+.sayan-hover-indigo:hover {
+    color: #fff !important;
+    background-color: #3f51b5 !important
+}
+
+.sayan-khaki,
+.sayan-hover-khaki:hover {
+    color: #000 !important;
+    background-color: #f0e68c !important
+}
+
+.sayan-lime,
+.sayan-hover-lime:hover {
+    color: #000 !important;
+    background-color: #cddc39 !important
+}
+
+.sayan-orange,
+.sayan-hover-orange:hover {
+    color: #000 !important;
+    background-color: #ff9800 !important
+}
+
+.sayan-deep-orange,
+.sayan-hover-deep-orange:hover {
+    color: #fff !important;
+    background-color: #ff5722 !important
+}
+
+.sayan-pink,
+.sayan-hover-pink:hover {
+    color: #fff !important;
+    background-color: #e91e63 !important
+}
+
+.sayan-purple,
+.sayan-hover-purple:hover {
+    color: #fff !important;
+    background-color: #9c27b0 !important
+}
+
+.sayan-deep-purple,
+.sayan-hover-deep-purple:hover {
+    color: #fff !important;
+    background-color: #673ab7 !important
+}
+
+.sayan-red,
+.sayan-hover-red:hover {
+    color: #fff !important;
+    background-color: #f44336 !important
+}
+
+.sayan-sand,
+.sayan-hover-sand:hover {
+    color: #000 !important;
+    background-color: #fdf5e6 !important
+}
+
+.sayan-teal,
+.sayan-hover-teal:hover {
+    color: #fff !important;
+    background-color: #009688 !important
+}
+
+.sayan-yellow,
+.sayan-hover-yellow:hover {
+    color: #000 !important;
+    background-color: #ffeb3b !important
+}
+
+.sayan-white,
+.sayan-hover-white:hover {
+    color: #000 !important;
+    background-color: #fff !important
+}
+
+.sayan-black,
+.sayan-hover-black:hover {
+    color: #fff !important;
+    background-color: #000 !important
+}
+
+.sayan-grey,
+.sayan-hover-grey:hover,
+.sayan-gray,
+.sayan-hover-gray:hover {
+    color: #000 !important;
+    background-color: #9e9e9e !important
+}
+
+.sayan-light-grey,
+.sayan-hover-light-grey:hover,
+.sayan-light-gray,
+.sayan-hover-light-gray:hover {
+    color: #000 !important;
+    background-color: #f1f1f1 !important
+}
+
+.sayan-dark-grey,
+.sayan-hover-dark-grey:hover,
+.sayan-dark-gray,
+.sayan-hover-dark-gray:hover {
+    color: #fff !important;
+    background-color: #616161 !important
+}
+
+.sayan-pale-red,
+.sayan-hover-pale-red:hover {
+    color: #000 !important;
+    background-color: #ffdddd !important
+}
+
+.sayan-pale-green,
+.sayan-hover-pale-green:hover {
+    color: #000 !important;
+    background-color: #ddffdd !important
+}
+
+.sayan-pale-yellow,
+.sayan-hover-pale-yellow:hover {
+    color: #000 !important;
+    background-color: #ffffcc !important
+}
+
+.sayan-pale-blue,
+.sayan-hover-pale-blue:hover {
+    color: #000 !important;
+    background-color: #ddffff !important
+}
+
+.sayan-text-amber,
+.sayan-hover-text-amber:hover {
+    color: #ffc107 !important
+}
+
+.sayan-text-aqua,
+.sayan-hover-text-aqua:hover {
+    color: #00ffff !important
+}
+
+.sayan-text-blue,
+.sayan-hover-text-blue:hover {
+    color: #2196F3 !important
+}
+
+.sayan-text-light-blue,
+.sayan-hover-text-light-blue:hover {
+    color: #87CEEB !important
+}
+
+.sayan-text-brown,
+.sayan-hover-text-brown:hover {
+    color: #795548 !important
+}
+
+.sayan-text-cyan,
+.sayan-hover-text-cyan:hover {
+    color: #00bcd4 !important
+}
+
+.sayan-text-blue-grey,
+.sayan-hover-text-blue-grey:hover,
+.sayan-text-blue-gray,
+.sayan-hover-text-blue-gray:hover {
+    color: #607d8b !important
+}
+
+.sayan-text-green,
+.sayan-hover-text-green:hover {
+    color: #4CAF50 !important
+}
+
+.sayan-text-light-green,
+.sayan-hover-text-light-green:hover {
+    color: #8bc34a !important
+}
+
+.sayan-text-indigo,
+.sayan-hover-text-indigo:hover {
+    color: #3f51b5 !important
+}
+
+.sayan-text-khaki,
+.sayan-hover-text-khaki:hover {
+    color: #b4aa50 !important
+}
+
+.sayan-text-lime,
+.sayan-hover-text-lime:hover {
+    color: #cddc39 !important
+}
+
+.sayan-text-orange,
+.sayan-hover-text-orange:hover {
+    color: #ff9800 !important
+}
+
+.sayan-text-deep-orange,
+.sayan-hover-text-deep-orange:hover {
+    color: #ff5722 !important
+}
+
+.sayan-text-pink,
+.sayan-hover-text-pink:hover {
+    color: #e91e63 !important
+}
+
+.sayan-text-purple,
+.sayan-hover-text-purple:hover {
+    color: #9c27b0 !important
+}
+
+.sayan-text-deep-purple,
+.sayan-hover-text-deep-purple:hover {
+    color: #673ab7 !important
+}
+
+.sayan-text-red,
+.sayan-hover-text-red:hover {
+    color: #f44336 !important
+}
+
+.sayan-text-sand,
+.sayan-hover-text-sand:hover {
+    color: #fdf5e6 !important
+}
+
+.sayan-text-teal,
+.sayan-hover-text-teal:hover {
+    color: #009688 !important
+}
+
+.sayan-text-yellow,
+.sayan-hover-text-yellow:hover {
+    color: #d2be0e !important
+}
+
+.sayan-text-white,
+.sayan-hover-text-white:hover {
+    color: #fff !important
+}
+
+.sayan-text-black,
+.sayan-hover-text-black:hover {
+    color: #000 !important
+}
+
+.sayan-text-grey,
+.sayan-hover-text-grey:hover,
+.sayan-text-gray,
+.sayan-hover-text-gray:hover {
+    color: #757575 !important
+}
+
+.sayan-text-light-grey,
+.sayan-hover-text-light-grey:hover,
+.sayan-text-light-gray,
+.sayan-hover-text-light-gray:hover {
+    color: #f1f1f1 !important
+}
+
+.sayan-text-dark-grey,
+.sayan-hover-text-dark-grey:hover,
+.sayan-text-dark-gray,
+.sayan-hover-text-dark-gray:hover {
+    color: #3a3a3a !important
+}
+
+.sayan-border-amber,
+.sayan-hover-border-amber:hover {
+    border-color: #ffc107 !important
+}
+
+.sayan-border-aqua,
+.sayan-hover-border-aqua:hover {
+    border-color: #00ffff !important
+}
+
+.sayan-border-blue,
+.sayan-hover-border-blue:hover {
+    border-color: #2196F3 !important
+}
+
+.sayan-border-light-blue,
+.sayan-hover-border-light-blue:hover {
+    border-color: #87CEEB !important
+}
+
+.sayan-border-brown,
+.sayan-hover-border-brown:hover {
+    border-color: #795548 !important
+}
+
+.sayan-border-cyan,
+.sayan-hover-border-cyan:hover {
+    border-color: #00bcd4 !important
+}
+
+.sayan-border-blue-grey,
+.sayan-hover-border-blue-grey:hover,
+.sayan-border-blue-gray,
+.sayan-hover-border-blue-gray:hover {
+    border-color: #607d8b !important
+}
+
+.sayan-border-green,
+.sayan-hover-border-green:hover {
+    border-color: #4CAF50 !important
+}
+
+.sayan-border-light-green,
+.sayan-hover-border-light-green:hover {
+    border-color: #8bc34a !important
+}
+
+.sayan-border-indigo,
+.sayan-hover-border-indigo:hover {
+    border-color: #3f51b5 !important
+}
+
+.sayan-border-khaki,
+.sayan-hover-border-khaki:hover {
+    border-color: #f0e68c !important
+}
+
+.sayan-border-lime,
+.sayan-hover-border-lime:hover {
+    border-color: #cddc39 !important
+}
+
+.sayan-border-orange,
+.sayan-hover-border-orange:hover {
+    border-color: #ff9800 !important
+}
+
+.sayan-border-deep-orange,
+.sayan-hover-border-deep-orange:hover {
+    border-color: #ff5722 !important
+}
+
+.sayan-border-pink,
+.sayan-hover-border-pink:hover {
+    border-color: #e91e63 !important
+}
+
+.sayan-border-purple,
+.sayan-hover-border-purple:hover {
+    border-color: #9c27b0 !important
+}
+
+.sayan-border-deep-purple,
+.sayan-hover-border-deep-purple:hover {
+    border-color: #673ab7 !important
+}
+
+.sayan-border-red,
+.sayan-hover-border-red:hover {
+    border-color: #f44336 !important
+}
+
+.sayan-border-sand,
+.sayan-hover-border-sand:hover {
+    border-color: #fdf5e6 !important
+}
+
+.sayan-border-teal,
+.sayan-hover-border-teal:hover {
+    border-color: #009688 !important
+}
+
+.sayan-border-yellow,
+.sayan-hover-border-yellow:hover {
+    border-color: #ffeb3b !important
+}
+
+.sayan-border-white,
+.sayan-hover-border-white:hover {
+    border-color: #fff !important
+}
+
+.sayan-border-black,
+.sayan-hover-border-black:hover {
+    border-color: #000 !important
+}
+
+.sayan-border-grey,
+.sayan-hover-border-grey:hover,
+.sayan-border-gray,
+.sayan-hover-border-gray:hover {
+    border-color: #9e9e9e !important
+}
+
+.sayan-border-light-grey,
+.sayan-hover-border-light-grey:hover,
+.sayan-border-light-gray,
+.sayan-hover-border-light-gray:hover {
+    border-color: #f1f1f1 !important
+}
+
+.sayan-border-dark-grey,
+.sayan-hover-border-dark-grey:hover,
+.sayan-border-dark-gray,
+.sayan-hover-border-dark-gray:hover {
+    border-color: #616161 !important
+}
+
+.sayan-border-pale-red,
+.sayan-hover-border-pale-red:hover {
+    border-color: #ffe7e7 !important
+}
+
+.sayan-border-pale-green,
+.sayan-hover-border-pale-green:hover {
+    border-color: #e7ffe7 !important
+}
+
+.sayan-border-pale-yellow,
+.sayan-hover-border-pale-yellow:hover {
+    border-color: #ffffcc !important
+}
+
+.sayan-border-pale-blue,
+.sayan-hover-border-pale-blue:hover {
+    border-color: #e7ffff !important
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Montserrat", sans-serif
+}
+
+.sayan-row-padding img {
+    margin-bottom: 12px
+}
+
+/* Set the width of the sidebar to 120px */
+.sayan-sidebar {
+    width: 120px;
+    background: #222;
+}
+
+/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+#main {
+    margin-left: 120px
+}
+
+/* Remove margins from "page content" on small screens */
+@media only screen and (max-width: 600px) {
+    #main {
+        margin-left: 0
+    }
+}
+.d-block{
+    
+    height: 70%;
+    width: 70%;
+    align-items: center;
+    
+}
